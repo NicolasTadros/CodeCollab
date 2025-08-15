@@ -1,4 +1,4 @@
-🖥 Collaborative Code Editor
+# 🖥 Collaborative Code Editor
 
 A real-time collaborative code editor with multi-language execution, live cursors, and user presence tracking.
 Built with React, Node.js, MongoDB, and Socket.io.
@@ -9,7 +9,7 @@ Built with React, Node.js, MongoDB, and Socket.io.
 
 
 
-🚀 Features:
+## 🚀 Features:
 
 -Real-time collaboration – Multiple users can edit the same code simultaneously
 
@@ -25,7 +25,7 @@ Built with React, Node.js, MongoDB, and Socket.io.
 
 -Clean interface – Simple, responsive design that just works
 
-🛠 Built With 
+## 🛠 Built With 
 Frontend:
 -React
 -Socket.io Client
@@ -36,14 +36,14 @@ Backend:
 -Socket.io for real-time communication
 -MongoDB + Mongoose for data persistence
 
-⚙ How It Works
+## ⚙ How It Works
 
 Each room has its own unique URL where users can join and start coding together.
 The editor syncs changes instantly and displays each participant’s cursor position.
 
 Code execution is handled server-side in isolated environments, and rooms persist their code in MongoDB so you can pick up right where you left off.
 
-💡 Why This Project is Useful
+## 💡 Why This Project is Useful
 
 This project solves a common problem for developers, students, and interviewers — the need to collaborate on code in real time without complex setup.
 
@@ -65,25 +65,28 @@ It’s ideal for:
 
 -Hackathons where speed and teamwork matter
 
-📦 Try it out yourself!
+## 📦 Try it out yourself!
 
-Clone this repo
+**Note:** Currently, this project only supports JavaScript execution locally.  
+Other languages require a paid API for compilation, which is not included in this demo version.
 
-git clone https://github.com/yourusername/collaborative-code-editor.git
+Clone this repo:
+
+git clone https://github.com/NicolasTadros/collaborative-code-editor.git
 
 
-Install dependencies in both frontend and backend folders
+Install dependencies in both frontend and backend folders:
 
-"npm install"
+npm install
 
 
 Set up your .env file (check .env.example for required variables)
 
-Make sure MongoDB is running
+Make sure MongoDB is running:
 
-"mongod"
+mongod
 
 
-Start the server
+Start the server:
 
-'npm start"
+npm start
